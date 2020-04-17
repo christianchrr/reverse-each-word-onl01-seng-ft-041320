@@ -10,6 +10,6 @@ end
 def reverse_each_word(words)
   word = words.split(" ")
   word.collect do |ele|
-    ele.reverse.to_s
+    ele.reverse
   end
 end
