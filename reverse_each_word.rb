@@ -12,5 +12,5 @@ def reverse_each_word(words)
   word.collect do |ele|
     ele.reverse
   end
-  word.join(" ")
+  return ele.reverse.join(" ")
 end
