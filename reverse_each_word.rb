@@ -8,7 +8,7 @@ def reverse_each_word(words)
 end
 
 def reverse_each_word(words)
-  words.collect |ele|
-    return "{#ele.reverse}"
+  words.collect do |ele|
+    ele.reverse
   end
 end
